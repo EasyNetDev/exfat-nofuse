@@ -82,13 +82,13 @@ First, get dkms. On Ubuntu this should be:
 
 Then copy the root of this repository to /usr/share:
 
-	sudo cp -R . /usr/src/exfat-1.2.8 (or whatever version number declared on dkms.conf is)
-	sudo dkms add -m exfat -v 1.2.8
+	sudo cp -R . /usr/src/exfat-1.2.11 (or whatever version number declared on dkms.conf is)
+	sudo dkms add -m exfat -v 1.2.11
 
 Build and load the module:
 
-	sudo dkms build -m exfat -v 1.2.8
-	sudo dkms install -m exfat -v 1.2.8
+	sudo dkms build -m exfat -v 1.2.11
+	sudo dkms install -m exfat -v 1.2.11
 
 Now you have a proper dkms module that will work for a long time... hopefully.
 
