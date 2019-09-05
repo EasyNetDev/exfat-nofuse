@@ -9,7 +9,7 @@ Thanks to JackNorris for being awesome and providing the clear_inode() patch.<br
 <br />
 Big thanks to lqs for completing the driver!<br />
 Big thanks to benpicco for fixing 3.11.y compatibility!
-
+Fixing the >= 5.0 compatibility.
 
 Special thanks to github user AndreiLux for spreading the word about the leak!<br />
 
