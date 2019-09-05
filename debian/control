@@ -1,0 +1,19 @@
+Source: exfat-nofuse
+Section: admin
+Priority: optional
+Maintainer: Adrian Ban <devel@abtelecom.ro>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: https://github.com/AdrianBan/exfat-nofuse
+Vcs-Browser: https://github.com/AdrianBan/exfat-nofuse
+Vcs-Git: https://github.com/AdrianBan/exfat-nofuse.git
+
+Package: exfat-kernel-source
+Architecture: all
+Depends: ${misc:Depends}, dkms, linux-libc-dev, libc6-dev
+XB-Modaliases: ${modaliases}
+Recommends: exfat-utils
+Conflicts: exfat-modaliases
+Replaces: exfat-modaliases, exfat-fuse
+Description: exFAT & FAT12/16/32 File System driver source
+ This package contains exFAT & FAT12/16/32 File System driver source.
